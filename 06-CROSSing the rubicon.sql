@@ -20,7 +20,6 @@ FROM cities AS c
 WHERE c.name LIKE 'Hyder%';
 
 
-
 -- Select fields
 SELECT c.name AS country, region, life_expectancy AS life_exp
 -- From countries (alias as c)
