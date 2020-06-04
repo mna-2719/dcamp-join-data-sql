@@ -75,3 +75,5 @@ SELECT code, inflation_rate, unemployment_rate
   	 WHERE (gov_form = 'Constitutional Monarchy' OR gov_form LIKE '%Republic%'))
 -- Order by inflation rate
 ORDER BY inflation_rate;
+
+		
