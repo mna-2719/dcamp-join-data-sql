@@ -24,3 +24,4 @@ SELECT name
   FROM cities
 -- Order by ascending capital
 ORDER BY capital;
+
