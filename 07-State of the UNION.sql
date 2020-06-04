@@ -38,3 +38,4 @@ SELECT country_code AS code, year
   FROM populations
 -- Order by code, year
 ORDER BY code, year;
+
