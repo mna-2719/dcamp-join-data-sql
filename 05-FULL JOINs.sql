@@ -39,3 +39,4 @@ FROM countries AS c1
     USING (code)
 -- 6. Where region like Melanesia and Micronesia
 WHERE region LIKE 'M%esia';
+
