@@ -35,3 +35,4 @@ WHERE year=2010
 ORDER BY life_exp
 -- Limit to 5 records
 LIMIT 5;
+
