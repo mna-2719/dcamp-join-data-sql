@@ -62,8 +62,6 @@ FROM populations
 WHERE year = 2015;
 
 
-
-
 SELECT country_code, size,
   CASE WHEN size > 50000000
             THEN 'large'
