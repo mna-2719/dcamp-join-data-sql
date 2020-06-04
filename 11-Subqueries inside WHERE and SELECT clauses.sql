@@ -45,3 +45,4 @@ SELECT countries.name AS country,
 FROM countries
 ORDER BY cities_num DESC, country
 LIMIT 9;
+
