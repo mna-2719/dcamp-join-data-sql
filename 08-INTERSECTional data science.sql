@@ -22,3 +22,4 @@ SELECT name
 SELECT name
   -- From cities
   FROM cities;
+
