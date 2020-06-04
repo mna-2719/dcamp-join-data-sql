@@ -40,7 +40,6 @@ WHERE region = 'Middle East'
 ORDER BY language;
 
 
-
 -- Select statement
 SELECT COUNT(*)
   -- From countries
@@ -61,7 +60,6 @@ SELECT c1.name AS name, c1.code, basic_unit AS currency
 WHERE continent='Oceania';
 
 
-
 -- 3. Select fields
 SELECT name, code
   -- 4. From Countries
@@ -73,8 +71,6 @@ SELECT name, code
   	-- 2. Subquery
   	(SELECT code
   	 FROM currencies);
-
-
 
 
 -- Select the city name
