@@ -34,7 +34,6 @@ GROUP BY c.region, c.continent
 ORDER BY avg_fert_rate;
 
 
-
 -- Select fields
 SELECT cities.name, cities.country_code, city_proper_pop, metroarea_pop,  
       -- Calculate city_perc
